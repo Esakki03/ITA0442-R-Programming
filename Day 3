@@ -31,7 +31,8 @@ print(squared_vec)
 
 
 
-2.i) Find the dimension of the data 
+2.
+i) Find the dimension of the data 
 
 mtcars
 dim(mtcars)
@@ -161,15 +162,4 @@ predictions <- predict(model, newdata = test_data, type = "response")
 predictions <- ifelse(predictions > 0.5, 1, 0)
 confusionMatrix(predictions, test_data$vs)
 
-5. 
-(I) Write R Program to create 15 x15 matrix filled with random numbers between -10 to 10, numbers can repeat. set random seed value to 328
-    
-(ii)Write R Program to display Lower Diagonal and upper Diagonal matrix  
-  
-(iii)Write R Program to count 0's in the matrix and check the matrix is sparse matrix are not
-  
-(iv) Write R code to remove outliers. Here the outliers are negative numbers. replace the negative values with positive values
-   
-(v) Find the mean median and mode of the values corresponding to column
-   
-(vi)Find the mean median and mode of the values corresponding to row
+
